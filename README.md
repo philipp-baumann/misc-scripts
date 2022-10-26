@@ -17,6 +17,9 @@ git pull
 
 ## Custom ghostscript (gs) routines
 
+More infos about ghostscript can be found on the [official
+page](https://www.ghostscript.com/).
+
 ### Resize PDFs
 
 -   [`resize_pdf`](scripts/resize_pdf.sh) is a simple shell script that
