@@ -19,8 +19,9 @@ git pull
 
 ### Resize PDFs
 
--   `resize_pdf` is a simple shell script that performs resizing from an
-    input format (e.g., A4) to a desired output format (e.g., A5).
+-   [`resize_pdf`](scripts/resize_pdf.sh) is a simple shell script that
+    performs resizing from an input format (e.g., A4) to a desired
+    output format (e.g., A5).
 
 To make it available on your Linux/MacOS device, you might first have to
 install the ghostscript (gs) command line program.
