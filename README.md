@@ -45,7 +45,7 @@ The syntax of the script is:
 
 ``` {bash}
 # change to folder with desired pdfwrite
-#
+# it has the following command syntax
 resize_pdf <your-file.pdf> <format-tag-from> <format-tag-to>
 # e.g.
 resize_pdf example.pdf a4 a5
