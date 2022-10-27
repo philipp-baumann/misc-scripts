@@ -53,3 +53,22 @@ resize_pdf <your-file.pdf> <format-tag-from> <format-tag-to>
 # e.g.
 resize_pdf example.pdf a4 a5
 ```
+
+# PDFtk routines
+
+## Combine multiple files
+
+First install it.
+
+``` {bash}
+# e.g. on ubuntu
+sudo apt install pdftk
+```
+
+Merge multiple PDF files into one.
+
+``` {bash}
+pdftk file1.pdf file2.pdf file3.pdf cat output newfile.pdf
+# in a directory
+pdftk *.pdf cat output newfile.pdf
+```
