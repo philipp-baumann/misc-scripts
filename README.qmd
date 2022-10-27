@@ -1,5 +1,5 @@
 ---
-title: "Custom bash scripts for manipulating vector and raster files"
+title: "Custom bash scripts for various tasks"
 format: gfm
 execute:
   eval: false

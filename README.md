@@ -1,4 +1,4 @@
-Custom bash scripts for manipulating vector and raster files
+Custom bash scripts for various tasks
 ================
 
 # Overview
