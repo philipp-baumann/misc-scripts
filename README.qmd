@@ -17,6 +17,72 @@ git clone https://github.com/philipp-baumann/vector-and-image-cli-commands.git
 git pull
 ```
 
+To produce a rendered `README.md` with code evaluated based on `README.qmd`, quarto is used. To get your python environment ready:
+
+```{bash}
+#| eval: true
+# activate local environment
+source env/bin/activate
+# restore state
+python3 -m pip install -r requirements.txt
+```
+
+Then, make quarto CLI ready to render README contents.
+
+```{bash}
+chmod +x ./scripts/gh_install_quarto_prerelease.sh
+# copy it to make it available on any folder in your shell
+sudo cp  ./scripts/gh_install_quarto_prerelease.sh /usr/local/bin/
+```
+
+
+
+# Get latest GitHub release number of a repository
+
+```{bash}
+# make the file executable
+chmod +x ./scripts/gh_get_latest_release.sh
+# copy it to make it available on any folder in your shell
+sudo cp  ./scripts/gh_get_latest_release.sh /usr/local/bin/gh_get_latest_release
+```
+
+For pre-releases, prepare the script.
+
+```{bash}
+# make the file executable
+chmod +x ./scripts/gh_install_quarto_prerelease.sh
+# copy it to make it available on any folder in your shell
+sudo cp  ./scripts/gh_install_quarto_prerelease.sh /usr/local/bin/
+```
+
+Then just do.
+
+```{bash}
+gh_install_quarto_prerelease
+```
+
+To use virtualenv, activate it
+
+```{bash}
+https://quarto.org/docs/projects/virtual-environments.html
+python3 -m venv env
+## python3 -m pip install jupyter
+## freeze the environment
+## python3 -m pip freeze > requirements.txt
+# install python packages from environments
+python3 -m pip install -r requirements.txt
+```
+
+# Get quarto CLI as publishing system
+
+There is a custom script here for the latest pre-release
+
+```{bash}
+# make the file executable
+chmod +x ./scripts/gh_get_latest_prerelease.sh
+# copy it to make it available on any folder in your shell
+sudo cp  ./scripts/gh_get_latest_prerelease.sh /usr/local/bin/gh_get_latest_prerelease
+```
 
 # Transformation of vector formats
 
