@@ -3,8 +3,8 @@ Custom bash scripts for various tasks
 
 # Overview
 
-You can clone this repository to download all files keeping up to date
-with this repository:
+You can clone this repository, downloading all files, and then later
+keeping up to date with this repository:
 
 ``` {bash}
 # change to desired directory in shell where you want to clone
