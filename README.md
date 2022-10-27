@@ -32,7 +32,8 @@ chmod +x ./scripts/gh_install_quarto_prerelease.sh
 sudo cp  ./scripts/gh_install_quarto_prerelease.sh /usr/local/bin/
 ```
 
-Finally, render if you want to update and repeat the cycle as you wish:
+Finally, render if you want to update and repeat the write-publish cycle
+as you wish:
 
 ``` {bash}
 quarto render README.qmd
