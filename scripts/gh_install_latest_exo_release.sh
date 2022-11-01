@@ -78,6 +78,7 @@ case $OS in
     sudo dpkg -i "exo-cli.deb"
     rm "exo-cli.deb"
     echo "Cleanup download."
+    echo "You have now:"
     echo $(exo version)
     ;;
   centos | rhel | fedora | rocky)
@@ -87,6 +88,7 @@ case $OS in
     sudo rpm -i "exo-cli.rpm"
     rm "exo-cli.rpm"
     echo "Cleanup download."
+    echo "You have now:"
     echo $(exo version)
     ;;
 esac
